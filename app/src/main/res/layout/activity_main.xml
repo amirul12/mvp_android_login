@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="unisoft.com.demoone.MainActivity">
+    tools:context="unisoft.com.demoone.loginPackage.MainActivity">
 
     <LinearLayout
         android:paddingStart="10dp"
@@ -17,11 +17,15 @@
 
 
         <EditText
+            android:singleLine="true"
             android:hint="Email"
+            android:imeOptions="actionNext"
             android:id="@+id/etUserEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <EditText
+            android:singleLine="true"
+            android:imeOptions="actionDone"
             android:hint="password"
             android:id="@+id/etpassword"
             android:layout_width="match_parent"
